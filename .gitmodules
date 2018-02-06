@@ -1,0 +1,3 @@
+[submodule "PyOEM"]
+	path = PyOEM
+	url = https://github.com/Mego/PyOEM
