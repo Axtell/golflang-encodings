@@ -58,5 +58,3 @@ def find_OEM437(encoding):
             streamwriter=OEM437StreamWriter,
         )
     return None
-
-codecs.register(find_OEM437)
