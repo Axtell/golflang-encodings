@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """golflang-encodings: a bunch of codecs for various esoteric programming languages"""
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='golflang-encodings',
@@ -11,6 +11,8 @@ setup(
     description='a bunch of codecs for various esoteric programming languages',
 
     url='https://github.com/PPCG-v2/golflang-encodings',
+    
+    packages=find_packages(),
 
     author='Mego',
 
