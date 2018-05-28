@@ -1,4 +1,4 @@
-NAME = "Dyalog APL Classic"
+NAME = "Dyalog-APL-Classic"
 
 CODEPAGE = {
     0: "\u0000", 1: "\b", 2: "\n", 3: "\r", 4: " ", 5: "\f", 6: "\u0006", 7: "\u0007",

@@ -72,7 +72,7 @@ def make_finder(name, classes):
     codec, incremental_encoder, incremental_decoder, stream_reader, stream_writer = classes
 
     def _find_codec(encoding):
-        if encoding.lower() == name.lower():
+        if '-'.join(encoding.lower().split()) == '-'.join(name.lower().split()):
             return codecs.CodecInfo(
                 name=name,
                 encode=codec().encode,
