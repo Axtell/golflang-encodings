@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 setup(
     name='golflang-encodings',
 
-    version='1.0.3',
+    version='1.0.4',
 
     description='a bunch of codecs for various esoteric programming languages',
 
