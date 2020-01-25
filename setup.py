@@ -6,11 +6,11 @@ from setuptools import setup, find_packages
 setup(
     name='golflang-encodings',
 
-    version='1.0.4',
+    version='1.0.5',
 
     description='a bunch of codecs for various esoteric programming languages',
 
-    url='https://github.com/PPCG-v2/golflang-encodings',
+    url='https://github.com/Axtell/golflang-encodings',
     
     packages=find_packages(),
 
